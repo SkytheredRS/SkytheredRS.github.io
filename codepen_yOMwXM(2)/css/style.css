@@ -1,0 +1,76 @@
+body{background:url("http://s.hswstatic.com/gif/parthenon-golden-ratio-orig.jpg") no-repeat fixed center;} 
+h1 {font-family: fantasy}
+h1 {font-size: 500%;}
+#nyancat {
+background: url("http://orig14.deviantart.net/57ab/f/2011/157/7/0/poptart_cat_journal_doll_by_yellowfangofstarclan-d3i8v6f.gif");
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  animation: example 10s infinite;
+}
+
+
+@keyframes example {
+    0% {
+      top: 0px;
+  }
+    20% {
+      top:120px;
+  }
+    40% {
+      top: 2500px;
+   }
+    100% {
+      top: 0px;
+   }
+}
+
+#mario {
+background: url("https://gamersareworthit.files.wordpress.com/2014/10/216020_170x100.gif?w=520");
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 10;
+  left: 50px;
+  animation: example 15s infinite;
+}
+
+#marioo {
+background: url("https://gamersareworthit.files.wordpress.com/2014/10/216020_170x100.gif?w=520");
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 10;
+  left: 50px;
+  animation: example 15s infinite;
+   animation-delay: 0.23s;
+}
+
+@keyframes example {
+    0% {
+      left: 0px;
+  }
+    20% {
+      left: 500px;
+  }
+    40% {
+      left: 900px;
+   }
+    100% {
+      left: 0px;
+   }
+}
+
+.playBtn {
+  width: 200px;
+  height: 90px;
+  font-size: 50px;
+  color: Blue;
+  background: Chartreuse;
+  border: 15px solid blue;
+}
