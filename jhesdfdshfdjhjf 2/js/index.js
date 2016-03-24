@@ -43,7 +43,7 @@ $(document).ready(function(){
   }, 500);
   
   setTimeout(function(){ 
-    window.location.href=""; 
-  }, 180000);
+    window.location.href="file:///Users/ddays/GitHub/SkytheredRS.github.io/codepen_PNmaEa/index.html"; 
+  }, 1000);
 
 });
