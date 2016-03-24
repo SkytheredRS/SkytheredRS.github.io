@@ -1,0 +1,40 @@
+body{background:url("http://s.hswstatic.com/gif/parthenon-golden-ratio-orig.jpg") no-repeat fixed center;} 
+h1 {font-family: fantasy; text-align: center; color: yellow;}
+h1 {font-size: 500%;}
+#nyancat {
+background: url("http://orig14.deviantart.net/57ab/f/2011/157/7/0/poptart_cat_journal_doll_by_yellowfangofstarclan-d3i8v6f.gif");
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  opacity: 0;
+  transition: left 5s ease;
+}
+
+#lol {
+  background: url("https://38.media.tumblr.com/avatar_e84a5a75ccc9_128.png");
+  width: 260px;
+  height: 280px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom:0px;
+  left: 10px;
+  opacity: 0;
+  transition: left 10s ease;
+}
+
+.moveLol {
+  left: 950px !important;
+  opacity: 1 !important;
+}
+
+.moveCat {
+  left:950px !important;
+  opacity: 1 !important;
+}
+
+.kill {
+  display: none !important;
+}
